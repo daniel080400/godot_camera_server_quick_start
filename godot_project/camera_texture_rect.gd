@@ -180,7 +180,7 @@ func _ready() -> void:
 	cam_texrect.material = ycbcr_conv_mat
 
 	# Android
-	# NOTE - On android, remember to request camera permission in export preset settings
+	# NOTE - Remember to request camera permission in Android export preset
 	if OS.get_name().to_lower() == "android":
 		get_tree().on_request_permissions_result.connect(_on_perms_result)
 		var camera_perms_granted: bool = OS.request_permission("android.permission.CAMERA")
