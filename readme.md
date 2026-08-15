@@ -1,20 +1,20 @@
 # Godot CameraServer Quick Start
 
+Tested platforms: **Android, Linux**
+
+Tested Godot version: **4.7.1** (You can downgrade to versions where `CameraServer` is still supported)
+
 A quick start project for Godot 4
 [CameraServer](https://docs.godotengine.org/en/stable/classes/class_cameraserver.html)
 , uses minimal code possible to bring camera feeds onto the screen using a `TextureRect`.
 
-To test, just clone this project and run it.
+Code is inside `godot_project/`, to test, clone this project and run it.
 
 While a demo project exists: [godot-camerafeed-demo](https://github.com/shiena/godot-camerafeed-demo),
 it serves as a full-fledged feature showcase.
 
 The purpose of this project is to serve as a starting point, and the code itself documents
 the exact steps to use `CameraServer` correctly.
-
-Tested platforms: **Android, Linux**
-
-Tested Godot version: **4.7.1** (you can downgrade to versions where `CameraServer` is still supported)
 
 # How to use
 
