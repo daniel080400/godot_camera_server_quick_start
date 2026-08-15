@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cdb6oiji178xc"]
+
+[ext_resource type="Script" uid="uid://dv64r5l3te00h" path="res://camera_texture_rect.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node" unique_id=1454026913]
+
+[node name="CameraTextureRect" type="TextureRect" parent="." unique_id=1464740862]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("1_ig7tw")
